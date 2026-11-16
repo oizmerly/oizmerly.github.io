@@ -12,7 +12,7 @@
     :root{color-scheme:dark;--bg:#171918;--panel:#1d201e;--line:#353a35;--text:#e8e4d9;--muted:#999e94;--accent:#c2d693;--cream:#e1d6c2}
     *{box-sizing:border-box}[hidden]{display:none!important}body{margin:0;background:radial-gradient(ellipse at 70% 0,#242a24 0,transparent 48%),var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,summary{-webkit-tap-highlight-color:transparent}button{font:inherit;color:inherit;cursor:pointer}button:focus-visible,summary:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}svg{width:17px;height:17px;flex:none;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.icons{display:none}.mono,.eyebrow,.subtitle,.machine-state,.library-count,.game-number,.footer{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
     .app{width:min(1220px,calc(100% - 72px));margin:auto;padding:30px 0 24px}.masthead{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-bottom:27px;border-bottom:1px solid var(--line);margin-bottom:28px}.brand{display:flex;align-items:center;gap:15px}.brand-mark{font:bold 24px/1 ui-monospace,monospace;letter-spacing:-3px;border:1px solid #898f80;border-bottom:4px solid #898f80;width:53px;height:43px;display:grid;place-items:center;padding-right:3px;color:var(--cream)}h1{font-size:18px;letter-spacing:.16em;line-height:1.2;margin:0 0 5px;font-weight:650}.subtitle{font-size:10px;letter-spacing:.09em;color:var(--muted)}.header-note{font-size:12px;color:var(--muted)}.header-note span{color:var(--cream)}.layout{display:grid;grid-template-columns:242px minmax(0,1fr);gap:32px;align-items:start}.eyebrow{font-size:10px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0}.library-heading{display:flex;justify-content:space-between;align-items:center;margin:4px 0 17px}.library-count{font-size:10px;color:var(--accent);border:1px solid #48513b;border-radius:3px;padding:1px 6px}.game-library{display:grid;gap:10px}.game-card{display:block;text-align:left;width:100%;padding:11px;border:1px solid var(--line);background:#1e231ed1;border-radius:7px;transition:background .15s,border-color .15s}.game-card:hover{border-color:#68705b;background:#282f27}.game-card[aria-pressed=true]{border-color:#a4b77a;background:#293025;box-shadow:inset 3px 0 #b5cb8b}.game-preview{width:100%;aspect-ratio:2/1;display:block;object-fit:contain;image-rendering:pixelated;border-radius:3px;background:black;opacity:.82}.game-card[aria-pressed=true] .game-preview,.game-card:hover .game-preview{opacity:1}.game-card-title{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-top:9px;font-size:14px;font-weight:600}.game-number{font-size:10px;color:#7a8571;font-weight:400}.game-card-meta{font-size:11px;color:var(--muted);margin-top:2px}.library-note{margin:19px 0 0;color:#828b7f;font-size:11px;line-height:1.65}.library-note svg{width:12px;height:12px;vertical-align:-2px;margin-right:4px}.game-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:17px}.game-heading h2{font-size:25px;font-weight:550;letter-spacing:-.035em;line-height:1.2;margin:0 0 5px}.game-heading p{font-size:12px;color:var(--muted);margin:0}.machine-state{display:flex;align-items:center;gap:7px;white-space:nowrap;font-size:9px;letter-spacing:.12em;color:var(--muted)}.dot{width:6px;height:6px;background:var(--accent);border-radius:50%;box-shadow:0 0 8px #c2d69340}.dot.paused{background:#dbb77e}.player{width:100%}.monitor-case{background:linear-gradient(140deg,#343934,#252a25);border:1px solid #42483f;border-bottom-color:#171b17;border-radius:10px;padding:16px 16px 11px;box-shadow:0 15px 35px #0004,0 2px 0 #0d100d}.screen-shell{position:relative;width:100%;aspect-ratio:4/3;max-height:62vh;margin:auto;background:#000;border:5px solid #0c110e;border-radius:4px;overflow:hidden;box-shadow:0 0 0 1px #3c4439,inset 0 0 25px #000}.screen-shell canvas{display:block;width:100%;height:100%;image-rendering:pixelated;outline:none}canvas:focus-visible{outline:2px solid var(--accent);outline-offset:-3px}.monitor-label{display:flex;align-items:center;justify-content:space-between;padding:10px 2px 0;font:9px ui-monospace,monospace;letter-spacing:.15em;color:#929889}.monitor-label b{font-size:10px;font-weight:500;color:#babbae}.monitor-slits{width:55px;height:8px;background:repeating-linear-gradient(90deg,#151c16 0 2px,transparent 2px 5px)}.toolbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:14px 0;border-bottom:1px solid var(--line)}.toolbar-group{display:flex;align-items:center;gap:4px}.tool{display:inline-flex;align-items:center;justify-content:center;gap:7px;border:1px solid transparent;background:transparent;min-height:35px;padding:6px 9px;color:#b1b7a9;border-radius:4px;font-size:11px}.tool:hover{background:#30372d;color:var(--text)}.tool[aria-pressed=true]#pause{border-color:#6d5d3c;color:#e4c18c}.primary{color:#e0e9cd;background:#3b4930;border:1px solid #61714a;padding-inline:15px}.primary:hover{background:#4a5b3c}.play-notes{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;margin-top:17px}.play-notes p{font-size:12px;color:var(--muted);margin:0}.play-notes .controls-line{font-size:11px;color:var(--cream);margin-top:7px}.help-link{align-self:start;border:0;padding:1px 0 5px;background:transparent;font-size:11px;color:var(--accent);display:flex;align-items:center;gap:6px;white-space:nowrap}.help-link svg{width:14px;height:14px}.overlay{position:absolute;inset:0;display:grid;align-content:center;justify-items:center;gap:12px;background:#0b110ee6;backdrop-filter:blur(3px);z-index:2}.overlay h2{font-size:19px;letter-spacing:.15em;font-weight:500;margin:0}.overlay p{max-width:85%;margin:0;color:var(--muted);text-align:center;font-size:12px}.overlay button{margin-top:8px}.error-detail{overflow-wrap:anywhere}.notice{position:fixed;z-index:8;bottom:24px;left:50%;transform:translate(-50%,10px);padding:10px 17px;border:1px solid #64754b;border-radius:5px;background:#303e29;color:#e0e8d5;opacity:0;pointer-events:none;transition:opacity .16s,transform .16s;max-width:calc(100% - 32px);text-align:center;font-size:12px}.notice.visible{opacity:1;transform:translate(-50%,0)}
-    .touch-controls{display:none;justify-content:space-between;align-items:center;padding:18px 6px 0;gap:20px;user-select:none}.dpad{display:grid;grid-template-columns:repeat(3,44px);grid-template-rows:repeat(3,38px);gap:4px}.touch-key{border:1px solid #525b48;border-radius:5px;background:linear-gradient(#353e2f,#252d21);min-height:42px;color:#d6dfc6;touch-action:none;user-select:none}.touch-key.pressed,.touch-key:active{background:#64794b;color:white}.dpad .up{grid-area:1/2}.dpad .left{grid-area:2/1}.dpad .right{grid-area:2/3}.dpad .down{grid-area:3/2}.touch-actions{display:grid;grid-template-columns:repeat(2,74px);gap:8px}.touch-actions .fire{grid-column:1/-1;min-height:48px;background:#4b5739}.touch-actions button{font-size:11px}.virtual-keyboard{margin-top:32px}.virtual-keyboard summary{cursor:pointer;display:flex;justify-content:space-between;gap:12px;align-items:center;padding-bottom:13px;border-bottom:1px solid var(--line);list-style:none;color:var(--text);font-size:12px}.virtual-keyboard summary::-webkit-details-marker{display:none}.virtual-keyboard summary span:first-child::before{content:'−';font-size:16px;color:var(--accent);margin-right:10px}.virtual-keyboard:not([open]) summary span:first-child::before{content:'+'}.keyboard-summary-note{color:var(--muted);font-size:10px}.keyboard-scroll{overflow-x:auto;padding:18px 1px 7px;scrollbar-color:#555e4d transparent}.bk-case{position:relative;padding:76px 20px 47px 17%;min-width:730px;border:1px solid #41433e;border-bottom:3px solid #11140f;border-radius:11px 11px 15px 15px;background:repeating-linear-gradient(8deg,#ffffff02 0 1px,transparent 1px 3px),radial-gradient(ellipse at 20% 0,#363831,transparent 70%),#22241f;box-shadow:0 10px 22px #0005,inset 0 1px #64665a55,inset 0 -10px 20px #0003}.bk-badge{position:absolute;top:20px;left:23px;width:154px;max-width:14%;color:#c3c2b6;transform:skew(-2deg);line-height:1.2;text-shadow:0 1px #000}.bk-badge span{display:block;font-weight:650;font-size:clamp(8px,1vw,12px);padding-bottom:6px;border-bottom:1px solid #919486;letter-spacing:.02em}.bk-badge b{display:block;font-size:clamp(12px,1.7vw,20px);letter-spacing:.04em;margin-top:5px}.bk-keys{display:flex;flex-direction:column;gap:4px;background:#11140f;border:5px solid #141710;border-radius:5px;box-shadow:0 0 0 1px #34372f}.bk-row{display:flex;gap:4px;min-width:0}.bk-key{flex:var(--key-width,1) 1 0;min-width:0;position:relative;min-height:49px;padding:5px 7px 8px;color:#33342e;border:1px solid #bfb29d;border-bottom:5px solid #b4a48d;border-radius:5px 5px 6px 6px;background:linear-gradient(115deg,#f0e9da,#dbcfb9);box-shadow:inset 2px 2px 0 #fff5,inset -3px -3px 0 #b3a58a55,1px 2px 2px #0009;text-align:center;touch-action:none;user-select:none;-webkit-user-select:none;font:16px/1.05 Arial,sans-serif;white-space:pre-line}.bk-key .bk-main{display:block;white-space:pre-line}.bk-key .paired{text-align:left;font-size:16px;line-height:1}.bk-latin{position:absolute;right:8px;bottom:6px;font:italic 16px Arial,sans-serif}.bk-shifted{display:block;font-size:15px;margin-top:4px}.bk-key.gray,.bk-functions .bk-key{color:#282b26;background:linear-gradient(115deg,#aaa99e,#868b80);border-color:#85867a;border-bottom-color:#686e62;box-shadow:inset 2px 2px 0 #d8dac033,inset -3px -3px 0 #424a3d33,1px 2px 2px #0009;font-size:14px}.bk-functions .bk-key{min-height:48px}.bk-functions .bk-key.stop{color:#3c1110;border-color:#b64838;border-bottom-color:#7a211d;background:linear-gradient(115deg,#c84939,#ab2926);box-shadow:inset 2px 2px 0 #ed847533,inset -3px -3px 0 #701e1d44,1px 2px 2px #0009}.bk-key:hover{filter:brightness(1.12)}.bk-key.pressed,.bk-key:active{transform:translateY(3px);border-bottom-width:2px;filter:brightness(.87);box-shadow:inset 1px 2px 4px #0004}.bk-key[aria-pressed=true]::after{content:'';position:absolute;top:5px;right:5px;width:3px;height:3px;border-radius:50%;background:#d8e8a0;box-shadow:0 0 4px #9cd334}.bk-lower{display:flex;gap:4px}.bk-lower-text{width:calc(100% - 18.7%);display:flex;flex-direction:column;gap:4px}.bk-arrows{width:18.7%;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr;gap:4px}.bk-arrows [data-host=ArrowLeft]{grid-area:1/1/3/2}.bk-arrows [data-host=ArrowUp]{grid-area:1/2}.bk-arrows [data-host=ArrowDown]{grid-area:2/2}.bk-arrows [data-host=ArrowRight]{grid-area:1/3/3/4}.bk-arrows .bk-key{font-size:28px}.bk-space-row .bk-key{min-height:44px}.bk-space-row [data-host=Space]{background:linear-gradient(110deg,#efe6d7,#d3c5ae)}.keyboard-footnote{font-size:10px;color:#858d7e;margin:9px 0 0}.footer{display:flex;justify-content:space-between;gap:16px;color:#777f72;font-size:9px;letter-spacing:.04em;padding-top:24px}
+    .touch-controls{display:none;justify-content:space-between;align-items:center;padding:18px 6px 0;gap:20px;user-select:none}.dpad{display:grid;grid-template-columns:repeat(3,44px);grid-template-rows:repeat(3,38px);gap:4px}.touch-key{border:1px solid #525b48;border-radius:5px;background:linear-gradient(#353e2f,#252d21);min-height:42px;color:#d6dfc6;touch-action:none;user-select:none}.touch-key.pressed{background:#64794b;color:white}.dpad .up{grid-area:1/2}.dpad .left{grid-area:2/1}.dpad .right{grid-area:2/3}.dpad .down{grid-area:3/2}.touch-actions{display:grid;grid-template-columns:repeat(2,74px);gap:8px}.touch-actions .fire{grid-column:1/-1;min-height:48px;background:#4b5739}.touch-actions button{font-size:11px}.virtual-keyboard{margin-top:32px}.virtual-keyboard summary{cursor:pointer;display:flex;justify-content:space-between;gap:12px;align-items:center;padding-bottom:13px;border-bottom:1px solid var(--line);list-style:none;color:var(--text);font-size:12px}.virtual-keyboard summary::-webkit-details-marker{display:none}.virtual-keyboard summary span:first-child::before{content:'−';font-size:16px;color:var(--accent);margin-right:10px}.virtual-keyboard:not([open]) summary span:first-child::before{content:'+'}.keyboard-summary-note{color:var(--muted);font-size:10px}.keyboard-scroll{overflow-x:auto;padding:18px 1px 7px;scrollbar-color:#555e4d transparent}.bk-case{position:relative;padding:76px 20px 47px 17%;min-width:730px;border:1px solid #41433e;border-bottom:3px solid #11140f;border-radius:11px 11px 15px 15px;background:repeating-linear-gradient(8deg,#ffffff02 0 1px,transparent 1px 3px),radial-gradient(ellipse at 20% 0,#363831,transparent 70%),#22241f;box-shadow:0 10px 22px #0005,inset 0 1px #64665a55,inset 0 -10px 20px #0003}.bk-badge{position:absolute;top:20px;left:23px;width:154px;max-width:14%;color:#c3c2b6;transform:skew(-2deg);line-height:1.2;text-shadow:0 1px #000}.bk-badge span{display:block;font-weight:650;font-size:clamp(8px,1vw,12px);padding-bottom:6px;border-bottom:1px solid #919486;letter-spacing:.02em}.bk-badge b{display:block;font-size:clamp(12px,1.7vw,20px);letter-spacing:.04em;margin-top:5px}.bk-keys{display:flex;flex-direction:column;gap:4px;background:#11140f;border:5px solid #141710;border-radius:5px;box-shadow:0 0 0 1px #34372f}.bk-row{display:flex;gap:4px;min-width:0}.bk-key{flex:var(--key-width,1) 1 0;min-width:0;position:relative;min-height:49px;padding:5px 7px 8px;color:#33342e;border:1px solid #bfb29d;border-bottom:5px solid #b4a48d;border-radius:5px 5px 6px 6px;background:linear-gradient(115deg,#f0e9da,#dbcfb9);box-shadow:inset 2px 2px 0 #fff5,inset -3px -3px 0 #b3a58a55,1px 2px 2px #0009;text-align:center;touch-action:none;user-select:none;-webkit-user-select:none;font:16px/1.05 Arial,sans-serif;white-space:pre-line}.bk-key .bk-main{display:block;white-space:pre-line}.bk-key .paired{text-align:left;font-size:16px;line-height:1}.bk-latin{position:absolute;right:8px;bottom:6px;font:italic 16px Arial,sans-serif}.bk-shifted{display:block;font-size:15px;margin-top:4px}.bk-key.gray,.bk-functions .bk-key{color:#282b26;background:linear-gradient(115deg,#aaa99e,#868b80);border-color:#85867a;border-bottom-color:#686e62;box-shadow:inset 2px 2px 0 #d8dac033,inset -3px -3px 0 #424a3d33,1px 2px 2px #0009;font-size:14px}.bk-functions .bk-key{min-height:48px}.bk-functions .bk-key.stop{color:#3c1110;border-color:#b64838;border-bottom-color:#7a211d;background:linear-gradient(115deg,#c84939,#ab2926);box-shadow:inset 2px 2px 0 #ed847533,inset -3px -3px 0 #701e1d44,1px 2px 2px #0009}.bk-key:hover{filter:brightness(1.12)}.bk-key.pressed{transform:translateY(3px);border-bottom-width:2px;filter:brightness(.87);box-shadow:inset 1px 2px 4px #0004}.bk-key[aria-pressed=true]::after{content:'';position:absolute;top:5px;right:5px;width:3px;height:3px;border-radius:50%;background:#d8e8a0;box-shadow:0 0 4px #9cd334}.bk-lower{display:flex;gap:4px}.bk-lower-text{width:calc(100% - 18.7%);display:flex;flex-direction:column;gap:4px}.bk-arrows{width:18.7%;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr;gap:4px}.bk-arrows [data-host=ArrowLeft]{grid-area:1/1/3/2}.bk-arrows [data-host=ArrowUp]{grid-area:1/2}.bk-arrows [data-host=ArrowDown]{grid-area:2/2}.bk-arrows [data-host=ArrowRight]{grid-area:1/3/3/4}.bk-arrows .bk-key{font-size:28px}.bk-space-row .bk-key{min-height:44px}.bk-space-row [data-host=Space]{background:linear-gradient(110deg,#efe6d7,#d3c5ae)}.keyboard-footnote{font-size:10px;color:#858d7e;margin:9px 0 0}.footer{display:flex;justify-content:space-between;gap:16px;color:#777f72;font-size:9px;letter-spacing:.04em;padding-top:24px}
     dialog{color:var(--text);background:#232a22;border:1px solid #556047;border-radius:9px;padding:28px;max-width:min(510px,calc(100% - 32px));max-height:85dvh}dialog::backdrop{background:#000b;backdrop-filter:blur(5px)}.dialog-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:16px}.dialog-heading h2{font-size:18px;font-weight:550;margin:0}.dialog-heading button{border:0;background:transparent;color:var(--muted);padding:6px}dialog p{font-size:13px;color:#bcc3b2;margin:12px 0}dialog table{width:100%;border-collapse:collapse;font-size:12px;margin:20px 0}dialog td{padding:7px 0;border-bottom:1px solid #424b3b}dialog td:last-child{color:#aab69f;padding-left:20px}kbd{font:10px ui-monospace,monospace;padding:2px 5px;border:1px solid #535c48;border-bottom-width:2px;border-radius:3px}.dialog-note{font-size:11px;color:#919d84}.player:fullscreen{background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px}.player:fullscreen .monitor-case{width:min(100%,calc((100dvh - 125px)*4/3));padding:8px}.player:fullscreen .screen-shell{max-height:none}.player:fullscreen .toolbar{width:min(100%,calc((100dvh - 125px)*4/3))}
     .layout{position:relative}.library{position:absolute;inset:0 auto 0 0;width:242px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#505c44 transparent;padding-right:6px}.game-panel{grid-column:2}
     .brand-mark{width:57px;height:57px;padding:0;border:0;letter-spacing:normal}.brand-mark svg{width:100%;height:100%;stroke:none;overflow:visible;filter:drop-shadow(0 3px 3px #0005)}
@@ -27,6 +27,13 @@
     .touch-actions.has-secondary .fire{grid-column:auto}
     .controller-trigger{position:relative;width:30px;height:30px;display:grid;place-items:center;border:0;background:transparent;color:#8d9683;margin-right:9px;border-radius:4px}.controller-trigger:hover{background:#343d2e;color:var(--cream)}.controller-trigger.connected{color:var(--accent)}.controller-trigger.connected::after{content:'';position:absolute;right:1px;top:2px;width:4px;height:4px;border-radius:50%;background:var(--accent)}.controller-trigger svg{width:21px;height:21px}.controller-settings{display:grid;gap:18px;min-width:min(340px,70vw)}.controller-settings label{display:grid;gap:7px;font-size:12px;color:var(--muted)}.controller-settings select{max-width:100%;width:100%;font:inherit;padding:8px;border:1px solid #58634b;border-radius:4px;background:#1b2119;color:var(--text)}.controller-settings input{accent-color:var(--accent);width:100%}.controller-preview{display:flex;align-items:center;justify-content:center;gap:22px;padding:12px}.stick-base{width:82px;height:82px;border:1px solid #58634b;border-radius:50%;display:grid;place-items:center;background:radial-gradient(#3e4a32,#1d251a)}.stick-knob{width:27px;height:27px;border-radius:50%;background:var(--cream);box-shadow:0 2px 5px #0006}.fire-light{display:grid;place-items:center;border:1px solid #596548;border-radius:50%;width:35px;height:35px;font:11px ui-monospace,monospace;color:var(--muted)}.fire-light.active{background:#c2d693;color:#172010}.controller-mapping{font-size:11px!important;line-height:1.8}
     @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+    button,button *,summary,summary *,canvas,.touch-controls,.touch-controls *,.bk-case,.bk-case *{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
+    button{appearance:none;-webkit-appearance:none}button,summary{touch-action:manipulation}.touch-controls,.touch-controls *,[data-code],.bk-key{touch-action:none}
+    .game-preview{-webkit-user-drag:none;user-select:none;-webkit-user-select:none}
+    .dpad{grid-template-columns:repeat(3,clamp(36px,12vw,48px));grid-template-rows:repeat(3,clamp(36px,12vw,48px))}.dpad .touch-key{min-height:0}
+    .touch-controls{gap:12px}.touch-actions{width:clamp(126px,40vw,160px);grid-template-columns:repeat(2,minmax(0,1fr))}
+    @media(hover:none){.bk-key:hover{filter:none}.tool:hover{background:transparent;color:#b1b7a9}.primary:hover{background:#3b4930;color:#e0e9cd}.controller-trigger:hover{background:transparent;color:#8d9683}.controller-trigger.connected:hover{color:var(--accent)}.game-card:hover:not([aria-pressed=true]){border-color:var(--line);background:#1e231ed1}}
+    @media(max-width:700px){.layout{gap:15px}.game-card{width:132px;flex-basis:132px}}
   </style>
 </head>
 <body>
@@ -702,6 +709,7 @@ class BKKeyboard {
     this.uppercase = true;
     this.russian = false;
     this.buttons = new Map();
+    this.cancelPointers = new Set();
     const key = (label, code, options = {}) => ({ label, code, ...options });
     const letter = (ru, latin, host) => key(ru, latin.charCodeAt(0), { latin, ru, host });
     const row = (className, keys) => {
@@ -789,6 +797,9 @@ class BKKeyboard {
       button.append(second);
     }
     this.buttons.set(button, d);
+    let lastPointer = -Infinity;
+    const pointerIds = new Set();
+    this.cancelPointers.add(()=>{if(pointerIds.size){lastPointer=performance.now();pointerIds.clear();}});
     const activate = id => {
       button.classList.add('pressed');
       if (d.modifier) { this.modifiers.set(id, d.modifier); this.updateIndicators(); return; }
@@ -796,21 +807,31 @@ class BKKeyboard {
       if (d.code !== null) this.callbacks.press(id, this.codeFor(d));
     };
     const release = id => {
-      button.classList.remove('pressed');
+      if(!pointerIds.delete(id))return;
+      lastPointer = performance.now();
+      button.classList.toggle('pressed',pointerIds.size>0);
       this.modifiers.delete(id);
       this.callbacks.release(id);
       this.updateIndicators();
     };
     button.addEventListener('pointerdown', event => {
+      if (event.button !== 0) return;
       event.preventDefault();
+      lastPointer = performance.now();
+      window.getSelection()?.removeAllRanges();
       button.setPointerCapture(event.pointerId);
-      activate('bk-pointer:' + event.pointerId);
+      const id='bk-pointer:'+event.pointerId;
+      pointerIds.add(id);
+      activate(id);
     });
     for (const type of ['pointerup', 'pointercancel', 'lostpointercapture']) {
-      button.addEventListener(type, event => release('bk-pointer:' + event.pointerId));
+      button.addEventListener(type, event => {
+        if(type==='lostpointercapture' && button.hasPointerCapture(event.pointerId))return;
+        release('bk-pointer:' + event.pointerId);
+      });
     }
     button.addEventListener('click', event => {
-      if (event.detail) return;
+      if (event.detail || performance.now()-lastPointer<800) return;
       if (d.modifier) {
         const id = 'latched:' + d.modifier;
         if (this.modifiers.has(id)) this.modifiers.delete(id); else this.modifiers.set(id, d.modifier);
@@ -820,6 +841,8 @@ class BKKeyboard {
         if (d.code !== null) this.callbacks.tap(this.codeFor(d));
       }
     });
+    button.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' ')lastPointer=-Infinity;});
+    for(const type of ['contextmenu','selectstart','dragstart'])button.addEventListener(type,event=>event.preventDefault());
     return button;
   }
 
@@ -883,6 +906,7 @@ class BKKeyboard {
 
   releaseAll() {
     this.modifiers.clear();
+    for(const cancel of this.cancelPointers)cancel();
     for (const button of this.buttons.keys()) button.classList.remove('pressed');
     this.updateIndicators();
   }
@@ -931,6 +955,118 @@ else globalThis.BKProfiles=BKProfiles;
 </script>
   <script>'use strict';
 
+class BKSpeaker {
+  constructor({ onChange = () => {}, onError = () => {} } = {}) {
+    this.enabled = true;
+    this.context = null;
+    this.events = [];
+    this.sources = new Set();
+    this.nextTime = 0;
+    this.fraction = 0;
+    this.primed = false;
+    this.needsReset = false;
+    this.onChange = onChange;
+    this.onError = onError;
+  }
+
+  get ready() { return this.enabled && !this.needsReset && this.context?.state === 'running'; }
+
+  unlock(gesture = false) {
+    if (!this.enabled) return;
+    // Touch pointerdown is not an activation event. Creation, resume and the
+    // first source start must stay synchronous inside pointerup/touchend/click.
+    if (!gesture) return;
+    try {
+      try { if (navigator.audioSession) navigator.audioSession.type = 'playback'; } catch { /* Optional platform API. */ }
+      if (this.context && (this.needsReset || this.context.state === 'interrupted' || this.context.state === 'closed')) {
+        const previous = this.context;
+        this.quiet();
+        this.context = null;
+        if (previous.state !== 'closed') previous.close().catch(() => {});
+      }
+      if (!this.context) {
+        const Audio = globalThis.AudioContext || globalThis.webkitAudioContext;
+        if (!Audio) { this.enabled = false; this.onChange(); return; }
+        const audio = this.context = new Audio({ latencyHint:'interactive' });
+        this.primed = false;
+        this.needsReset = false;
+        const highpass = audio.createBiquadFilter();
+        highpass.type = 'highpass'; highpass.frequency.value = 40;
+        const lowpass = audio.createBiquadFilter();
+        lowpass.type = 'lowpass'; lowpass.frequency.value = 6000;
+        this.gain = audio.createGain(); this.gain.gain.value = 0.12;
+        this.gain.connect(highpass).connect(lowpass).connect(audio.destination);
+        audio.onstatechange = () => {
+          if (audio !== this.context) return;
+          if (audio.state !== 'running') this.quiet();
+          this.onChange();
+        };
+      }
+      const audio = this.context;
+      if (audio.state === 'running' && this.primed) { this.onChange(); return; }
+      const resumed = audio.state === 'running' ? Promise.resolve() : audio.resume();
+      const settled = Promise.resolve(resumed).then(() => this.onChange(), () => this.onChange());
+      const prime = audio.createBufferSource();
+      prime.buffer = audio.createBuffer(1, 1, audio.sampleRate);
+      prime.connect(audio.destination);
+      prime.onended = () => prime.disconnect();
+      prime.start(0);
+      this.primed = true;
+      this.onChange();
+      // Do not permanently mute after an autoplay rejection. A later genuine
+      // tap must be able to retry, even if an older resume promise is pending.
+      return settled;
+    } catch (error) {
+      this.needsReset = true;
+      this.onChange();
+      this.onError(error);
+    }
+  }
+
+  suspend() {
+    this.quiet();
+    if (this.context?.state === 'running') this.context.suspend().catch(() => {});
+  }
+
+  quiet() {
+    for (const source of this.sources) { try { source.stop(); } catch { /* Already ended. */ } source.disconnect(); }
+    this.sources.clear(); this.events.length = 0;
+    this.nextTime = 0; this.fraction = 0;
+  }
+
+  render(start, end, initialLevel) {
+    try { this.renderFrame(start,end,initialLevel); }
+    catch { this.needsReset=true; this.quiet(); this.onChange(); }
+  }
+
+  renderFrame(start, end, initialLevel) {
+    if (!this.ready || end <= start) { this.events.length = 0; return; }
+    const audio = this.context;
+    const exactCount = (end - start) * audio.sampleRate / BKMachine.HZ + this.fraction;
+    const count = Math.floor(exactCount);
+    this.fraction = exactCount - count;
+    if (!count) { this.events.length = 0; return; }
+    const buffer = audio.createBuffer(1, count, audio.sampleRate), data = buffer.getChannelData(0);
+    let event = 0, level = initialLevel;
+    for (let n = 0; n < count; n++) {
+      const cycle = start + n * BKMachine.HZ / audio.sampleRate;
+      while (event < this.events.length && this.events[event][0] <= cycle) level = this.events[event++][1];
+      data[n] = level ? 1 : -1;
+    }
+    this.events.length = 0;
+    if (this.nextTime < audio.currentTime || this.nextTime > audio.currentTime + 0.2) this.nextTime = audio.currentTime + 0.045;
+    const source = audio.createBufferSource();
+    source.buffer = buffer; source.connect(this.gain); this.sources.add(source);
+    source.onended = () => { this.sources.delete(source); source.disconnect(); };
+    source.start(this.nextTime); this.nextTime += buffer.duration;
+  }
+}
+
+if (typeof module !== 'undefined') module.exports = { BKSpeaker };
+else globalThis.BKSpeaker = BKSpeaker;
+</script>
+  <script>'use strict';
+
 (() => {
   const $ = id => document.getElementById(id);
   const decode = data => Uint8Array.from(atob(data), c => c.charCodeAt(0));
@@ -942,6 +1078,8 @@ else globalThis.BKProfiles=BKProfiles;
   const context = canvas.getContext('2d', { alpha: false });
   const frame = context.createImageData(512, 256);
   const held = new Map();
+  const controlPointers = new Map();
+  const pointerClicks = new WeakMap();
   let paused = false;
   let monochrome = false;
   let lastTime = null;
@@ -958,88 +1096,23 @@ else globalThis.BKProfiles=BKProfiles;
   let controllerBackDown = false;
   let controllerWasPaused = false;
 
-  class Speaker {
-    constructor() {
-      this.enabled = true;
-      this.context = null;
-      this.events = [];
-      this.sources = new Set();
-      this.nextTime = 0;
-      this.fraction = 0;
-    }
-
-    async unlock() {
-      if (!this.enabled) return;
-      try {
-        if (!this.context) {
-          const Audio = window.AudioContext || window.webkitAudioContext;
-          if (!Audio) return;
-          this.context = new Audio();
-          const highpass = this.context.createBiquadFilter();
-          highpass.type = 'highpass';
-          highpass.frequency.value = 40;
-          const lowpass = this.context.createBiquadFilter();
-          lowpass.type = 'lowpass';
-          lowpass.frequency.value = 6000;
-          this.gain = this.context.createGain();
-          this.gain.gain.value = 0.12;
-          this.gain.connect(highpass).connect(lowpass).connect(this.context.destination);
-        }
-        if (this.context.state === 'suspended') await this.context.resume();
-      } catch {
-        this.enabled = false;
-        updateSoundButton();
-        toast('Audio is unavailable in this browser.');
-      }
-    }
-
-    quiet() {
-      for (const source of this.sources) {
-        try { source.stop(); } catch { /* Already ended. */ }
-      }
-      this.sources.clear();
-      this.nextTime = 0;
-      this.fraction = 0;
-    }
-
-    render(start, end, initialLevel) {
-      if (!this.enabled || this.context?.state !== 'running' || end <= start) {
-        this.events.length = 0;
-        return;
-      }
-      const audio = this.context;
-      const exactCount = (end - start) * audio.sampleRate / BKMachine.HZ + this.fraction;
-      const count = Math.floor(exactCount);
-      this.fraction = exactCount - count;
-      if (!count) { this.events.length = 0; return; }
-      const buffer = audio.createBuffer(1, count, audio.sampleRate);
-      const data = buffer.getChannelData(0);
-      let event = 0, level = initialLevel;
-      for (let n = 0; n < count; n++) {
-        const cycle = start + n * BKMachine.HZ / audio.sampleRate;
-        while (event < this.events.length && this.events[event][0] <= cycle) {
-          level = this.events[event++][1];
-        }
-        data[n] = level ? 1 : -1;
-      }
-      this.events.length = 0;
-      if (this.nextTime < audio.currentTime || this.nextTime > audio.currentTime + 0.2) {
-        this.nextTime = audio.currentTime + 0.045;
-      }
-      const source = audio.createBufferSource();
-      source.buffer = buffer;
-      source.connect(this.gain);
-      this.sources.add(source);
-      source.onended = () => { this.sources.delete(source); source.disconnect(); };
-      source.start(this.nextTime);
-      this.nextTime += buffer.duration;
-    }
-  }
-
-  const speaker = new Speaker();
+  const speaker = new BKSpeaker({
+    onChange: () => updateSoundButton(),
+    onError: () => toast('Tap Enable sound to retry audio.'),
+  });
   const onSpeaker = (cycle, level) => {
     if (speaker.enabled && speaker.context?.state === 'running') speaker.events.push([cycle, level]);
   };
+
+  const unlockAudio = event => {
+    const target = event.target instanceof Element ? event.target : event.target?.parentElement;
+    if (!event.isTrusted || target?.closest('#sound')) return;
+    if (event.type === 'pointerdown' && event.pointerType !== 'mouse') return;
+    speaker.unlock(true);
+  };
+  for (const type of ['pointerdown','pointerup','touchend','click','keydown']) {
+    window.addEventListener(type, unlockAudio, { capture:true, passive:true });
+  }
 
   function toast(message) {
     $('notice').textContent = message;
@@ -1086,6 +1159,12 @@ else globalThis.BKProfiles=BKProfiles;
     clearTimeout(tapTimer);
     tapId = null;
     held.clear();
+    const captures = Array.from(controlPointers.entries());
+    for (const [,pointer] of captures) for (const button of [pointer.origin,...pointer.buttons]) pointerClicks.set(button,performance.now());
+    controlPointers.clear();
+    for (const [id, pointer] of captures) {
+      try { if (pointer.origin.hasPointerCapture(id)) pointer.origin.releasePointerCapture(id); } catch { /* Already cancelled. */ }
+    }
     machine?.selectKey(null);
     if (machine) machine.joystick = 0;
     keyboard?.releaseAll();
@@ -1141,9 +1220,9 @@ else globalThis.BKProfiles=BKProfiles;
   }
 
   function updateSoundButton() {
-    $('sound').setAttribute('aria-pressed', String(speaker.enabled));
-    $('sound-label').textContent = speaker.enabled ? 'Sound on' : 'Sound off';
-    $('sound-symbol').setAttribute('href', speaker.enabled ? '#icon-sound' : '#icon-muted');
+    $('sound').setAttribute('aria-pressed', String(speaker.ready));
+    $('sound-label').textContent = !speaker.enabled ? 'Sound off' : speaker.ready ? 'Sound on' : 'Enable sound';
+    $('sound-symbol').setAttribute('href', speaker.ready ? '#icon-sound' : '#icon-muted');
   }
 
   // These are the same settings the original SWcorp control menu writes for
@@ -1212,6 +1291,7 @@ else globalThis.BKProfiles=BKProfiles;
     preview.className = 'game-preview';
     preview.src = game.preview;
     preview.alt = '';
+    preview.draggable = false;
     preview.width = 512;
     preview.height = 256;
     const title = document.createElement('span');
@@ -1240,9 +1320,9 @@ else globalThis.BKProfiles=BKProfiles;
     canvas.focus({ preventScroll: true });
   });
   $('sound').addEventListener('click', () => {
-    speaker.enabled = !speaker.enabled;
+    speaker.enabled = !speaker.ready;
     speaker.quiet();
-    if (speaker.enabled) speaker.unlock();
+    if (speaker.enabled) speaker.unlock(true);
     updateSoundButton();
   });
   $('display').addEventListener('click', () => {
@@ -1282,7 +1362,7 @@ else globalThis.BKProfiles=BKProfiles;
   });
 
   window.addEventListener('keydown', event => {
-    if ($('help-dialog').open) return;
+    if ($('help-dialog').open || $('controller-dialog').open) return;
     // Preserve browser and operating-system shortcuts.
     if (event.metaKey || (event.ctrlKey && ['r', 'l', 't', 'w', 'n', '+', '-', '0'].includes(event.key.toLowerCase()))) return;
     if (event.key === 'F1') { event.preventDefault(); openHelp(); return; }
@@ -1305,33 +1385,90 @@ else globalThis.BKProfiles=BKProfiles;
   });
   window.addEventListener('keyup', e => { release('key:' + e.code); keyboard.highlight(e.code, false); });
   window.addEventListener('blur', releaseAll);
-  document.addEventListener('visibilitychange', () => { if (document.hidden) setPaused(true); });
+  document.addEventListener('visibilitychange', () => { if (document.hidden) { setPaused(true); speaker.suspend(); } });
+  window.addEventListener('pagehide', () => { setPaused(true); speaker.suspend(); });
   canvas.addEventListener('pointerdown', () => {
     canvas.focus({ preventScroll: true });
     speaker.unlock();
   });
 
+  const pointerKey = (id, button) => 'pointer:' + id + ':' + button.dataset.code;
+  function markPressed(button) {
+    button.classList.toggle('pressed', Array.from(controlPointers.values()).some(p => p.buttons.includes(button)));
+  }
+  function changePointer(id, buttons) {
+    const pointer = controlPointers.get(id);
+    if (!pointer) return;
+    const previous = pointer.buttons;
+    pointer.buttons = buttons;
+    for (const button of previous) if (!buttons.includes(button)) {
+      release(pointerKey(id,button)); markPressed(button);
+    }
+    for (const button of buttons) if (!previous.includes(button)) {
+      pointerClicks.set(button, performance.now());
+      press(pointerKey(id,button), Number(button.dataset.code)); markPressed(button);
+    }
+  }
+  function dpadButtons(group, x, y) {
+    const r = group.getBoundingClientRect(), slop = 14;
+    if (x < r.left-slop || x > r.right+slop || y < r.top-slop || y > r.bottom+slop) return [];
+    const dx=x-(r.left+r.width/2), dy=y-(r.top+r.height/2), ax=Math.abs(dx), ay=Math.abs(dy);
+    if (ax < r.width*.13 && ay < r.height*.13) return [];
+    const diagonals = activeGame.joystick && !activeGame.joystick.hostActions;
+    const directions = [];
+    if (diagonals ? ax > r.width*.13 && ax > ay*.45 : ax > ay) directions.push(dx < 0 ? 'left' : 'right');
+    if (diagonals ? ay > r.height*.13 && ay > ax*.45 : ay >= ax) directions.push(dy < 0 ? 'up' : 'down');
+    return directions.map(direction => group.querySelector('.'+direction));
+  }
+  function startPointer(event, origin, group = null) {
+    if (event.button !== 0 || controlPointers.has(event.pointerId)) return;
+    event.preventDefault();
+    window.getSelection()?.removeAllRanges();
+    pointerClicks.set(origin, performance.now());
+    controlPointers.set(event.pointerId, { origin, group, buttons:[] });
+    try { origin.setPointerCapture(event.pointerId); } catch { /* Window-level release also handles capture loss. */ }
+    changePointer(event.pointerId, group ? dpadButtons(group,event.clientX,event.clientY) : [origin]);
+  }
+  function endPointer(event) {
+    const pointer = controlPointers.get(event.pointerId);
+    if (!pointer) return;
+    // A delayed loss from an older capture can arrive after the next touch has
+    // reused its pointer ID. It must not release that newer finger press.
+    if(event.type==='lostpointercapture' && (pointer.origin!==event.currentTarget || pointer.origin.hasPointerCapture(event.pointerId)))return;
+    pointerClicks.set(pointer.origin, performance.now());
+    for (const button of pointer.buttons) pointerClicks.set(button, performance.now());
+    changePointer(event.pointerId, []);
+    controlPointers.delete(event.pointerId);
+  }
+  window.addEventListener('pointermove', event => {
+    const pointer = controlPointers.get(event.pointerId);
+    if (!pointer) return;
+    event.preventDefault();
+    if (pointer.group) changePointer(event.pointerId,dpadButtons(pointer.group,event.clientX,event.clientY));
+    else {
+      const r=pointer.origin.getBoundingClientRect(),slop=12;
+      const inside=event.clientX>=r.left-slop && event.clientX<=r.right+slop && event.clientY>=r.top-slop && event.clientY<=r.bottom+slop;
+      changePointer(event.pointerId,inside?[pointer.origin]:[]);
+    }
+  }, { passive:false });
+  for (const type of ['pointerup','pointercancel']) window.addEventListener(type,endPointer,{capture:true});
   document.querySelectorAll('[data-code]').forEach(button => {
-    const code = () => Number(button.dataset.code);
-    button.addEventListener('pointerdown', e => {
-      e.preventDefault();
-      button.setPointerCapture(e.pointerId);
-      button.classList.add('pressed');
-      press('pointer:' + e.pointerId, code());
-    });
-    const up = e => {
-      button.classList.remove('pressed');
-      release('pointer:' + e.pointerId);
-    };
-    button.addEventListener('pointerup', up);
-    button.addEventListener('pointercancel', up);
-    button.addEventListener('lostpointercapture', up);
-    // Keyboard and assistive-technology activation have no pointerdown event.
-    button.addEventListener('click', e => {
-      if (e.detail) return;
-      tap(code());
+    button.addEventListener('pointerdown', event => startPointer(event,button,button.closest('.dpad')));
+    button.addEventListener('lostpointercapture',endPointer);
+    for (const type of ['contextmenu','selectstart','dragstart']) button.addEventListener(type,event=>event.preventDefault());
+    button.addEventListener('keydown', event => { if (event.key==='Enter' || event.key===' ') pointerClicks.delete(button); });
+    // A touch-generated click may have detail=0 on WebKit. Do not replay the
+    // press as an accessibility tap after the real finger has already released.
+    button.addEventListener('click', event => {
+      if (event.detail || performance.now()-(pointerClicks.get(button)??-Infinity)<800) return;
+      tap(Number(button.dataset.code));
     });
   });
+  document.querySelector('.dpad').addEventListener('pointerdown',event=>startPointer(event,event.currentTarget,event.currentTarget));
+  document.querySelector('.dpad').addEventListener('lostpointercapture',endPointer);
+  for(const surface of document.querySelectorAll('.touch-controls,.bk-keys')){
+    for(const type of ['contextmenu','selectstart','dragstart'])surface.addEventListener(type,event=>event.preventDefault());
+  }
 
   keyboard = new BKKeyboard($('virtual-keys'), { press, release, tap, stop: () => setPaused(!paused) });
 

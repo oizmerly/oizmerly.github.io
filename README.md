@@ -12,6 +12,9 @@ There are no external JavaScript libraries, packages, fonts, or network requests
 USB/Bluetooth controllers use each game's original joystick inputs; the joystick
 icon opens device selection and calibration.
 
+Phone controls support sliding directions and simultaneous movement and fire.
+Audio starts after a completed tap and can resume after switching apps.
+
 The 2M selector entry uses the supplied BOLDER2.BIN (also named BOLDE2.BIN).
 Its own title says Bolder Dash; the 2M suffix is not independently confirmed.
 Soldier 2 and 3 use the shared engine and original mission data files.
