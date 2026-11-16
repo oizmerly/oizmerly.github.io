@@ -1,6 +1,6 @@
 # BK Arcade
 
-[Play BK Arcade](https://oizmerly.github.io/)
+[Play BK Arcade](https://oizmerly.github.io/bk/)
 
 A self-contained BK-0010(01) arcade with Bolder Dash, Bolder Dash 2M, Jetman,
 Planet of Zoom, Captain Comic, Breaking Ball, Digger, Runing, Flasse, and
