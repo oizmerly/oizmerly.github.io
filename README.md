@@ -4,7 +4,7 @@
 
 A self-contained BK-0010(01) arcade with Bolder Dash, Bolder Dash 2M, Jetman,
 Planet of Zoom, Captain Comic, Breaking Ball, Digger, Runing, Flasse, and
-Soldier missions 1, 2, and 3, King's Valley, and Exolon.
+Soldier missions 1, 2, and 3, King's Valley, Exolon, and Desantnik.
 
 Download `index.html` to play offline. All programs, cassette data, images,
 firmware, audio code, and the 74-key BK keyboard are embedded in that one file.
@@ -21,6 +21,10 @@ Soldier 2 and 3 use the shared engine and original mission data files.
 Exolon.bin and Exolon.ovl belong to the same game. Both are embedded; the
 original cassette routine loads EXOLON.OVL automatically. Arrows move, jump,
 and duck; Space fires and X launches a rocket.
+
+Desantnik includes DESAN1.OVL through DESAN5.OVL. The original menu and
+next-part routines load them automatically. Phone actions change with each
+part; controller buttons 1–5 provide the final part's five strikes.
 
 Original programs credit MRLC, SWcorp, SHW&AW, BIL corp., DIM corporation,
 Shishkin Software, and Soft of Future. Exolon also includes a KingSoft/SMC
