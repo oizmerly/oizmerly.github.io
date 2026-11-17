@@ -22,9 +22,12 @@ Exolon.bin and Exolon.ovl belong to the same game. Both are embedded; the
 original cassette routine loads EXOLON.OVL automatically. Arrows move, jump,
 and duck; Space fires and X launches a rocket.
 
-Desantnik includes DESAN1.OVL through DESAN5.OVL. The original menu and
-next-part routines load them automatically. Phone actions change with each
-part; controller buttons 1–5 provide the final part's five strikes.
+Desantnik has five compact part tabs above the screen: Flight, Race, Search,
+Labyrinth, and Headquarters. Each opens its part directly. Links #desan-1 through
+#desan-5 select a part; Restart keeps that selection. The original menu remains
+available from Help. All five overlays stay embedded and load automatically.
+Phone actions follow the current part; controller buttons 1–5 provide the final
+part's five strikes.
 
 Original programs credit MRLC, SWcorp, SHW&AW, BIL corp., DIM corporation,
 Shishkin Software, and Soft of Future. Exolon also includes a KingSoft/SMC
