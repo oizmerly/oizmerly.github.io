@@ -15,8 +15,8 @@ There are no external libraries, packages, fonts, or network requests.
 The desktop library scrolls within a full-height sidebar, alongside a larger
 display that reserves room for the BK keyboard when it fits. Short windows
 keep an expandable Keyboard row; manual open/close choices survive resizes.
-The keyboard uses the supplied BK photo with 74 calibrated interactive key
-regions. It scales uniformly, preserving the real key shapes and spacing.
+The keyboard has 74 drawn keycaps with corrected proportions, Cyrillic/Latin
+legends, and outline symbols. It scales uniformly to preserve the key shapes.
 Phones keep the horizontal game strip, sliding direction controls,
 simultaneous movement and actions, and gesture-activated audio.
 USB/Bluetooth controllers use each game's original joystick or keyboard input.
