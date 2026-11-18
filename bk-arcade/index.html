@@ -1000,6 +1000,23 @@ const BKProfiles = {
   install(machine, game) {
     machine.controlsPrepared = false;
     machine.addressHook = null;
+    if(game.joystick?.config) {
+      // These tape conversions end their native control selector with HALT.
+      // Their own vector 4 returns to the title without losing the settings.
+      const [stop,entry]={
+        'breaking-ball':[0o21706,0o21500],
+        'captain-comic':[0o21626,0o21430],
+        flier:[0o24576,0o24400],
+        jetman:[0o33600,0o27760],
+        zoom:[0o34256,0o34060],
+      }[game.id];
+      machine.addressHook={address:stop,run:m=>{
+        if(m.readWord(stop)!==0 || m.readWord(stop-2)!==0o104442 || m.readWord(4)!==entry)
+          throw Error('Unexpected control-menu handoff');
+        m.trap(4);
+      }};
+      return;
+    }
     if(game.id==='saper') {
       // This image polls the latch before enabling the monitor's input driver.
       // Match the monitor RUN priority so its ISR cannot consume that key first.

@@ -22,6 +22,10 @@ simultaneous movement and actions, and gesture-activated audio.
 USB/Bluetooth controllers use each game's original joystick or keyboard input.
 The joystick icon opens device selection and calibration.
 
+Jetman, Breaking Ball, Captain Comic, Flier, and Planet of Zoom return safely
+from their original control selectors to the title menu, preserving keyboard,
+joystick, combined-mode, and key-binding settings.
+
 Pereval, Lode Runner, and Expert include their `.GMS` files. Exolon includes
 `EXOLON.OVL`; Captain Comic and Soldier include their companion level files.
 The games' original cassette routines load these embedded files automatically.
